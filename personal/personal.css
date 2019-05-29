@@ -3,7 +3,6 @@ nav {
     height: 45px;
     background-color: #0b98de;
  }
- 
  nav a {
     display: block;
     float: left;
@@ -18,33 +17,42 @@ nav {
     padding-left: 20px;
     text-decoration: none;
  }
-
  .logo {
     width: 99px;
     height: auto;
     float: right;
  }
-
 h1 {
     text-align: center;
 }
 h3 {
     text-align: center;
 }
+img {
+    float: left;
+    width: 150px;
+    height: 150px;
+    clear: left;
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    }
 
+p {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: justify;
+    text-indent: 2em;
+    }
 body {
     height: 100px;
     font-family: "Times New Roman", Times, serif;
     background-color: darkgray
 }
-img {
-        width: 100px;
-        height: auto;
-        float: left;
-    }
-    p {
-        text-align: justify;
-        text-indent: 2em;
+.center {
+    display: flex;
+    justify-content: flex-start;
 }
 .footer {
     height: auto;
@@ -55,9 +63,4 @@ img {
     color: white;
     text-align: left;
     list-style-type: none;
-}
-article {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
 }
