@@ -38,10 +38,9 @@ body {
     background-color: darkgray
 }
 img {
-        width: 25%;
-        height: 180px;
+        width: 100px;
+        height: auto;
         float: left;
-        margin: 0 20px 20px 0;
     }
     p {
         text-align: justify;
@@ -56,3 +55,9 @@ img {
     color: white;
     text-align: left;
     list-style-type: none;
+}
+article {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
