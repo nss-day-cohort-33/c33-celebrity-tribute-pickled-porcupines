@@ -31,7 +31,10 @@ h1 {
 h3 {
     text-align: center;
 }
+
 body {
+    height: 100px;
+    font-family: "Times New Roman", Times, serif;
     background-color: darkgray
 }
 img {
@@ -48,6 +51,7 @@ img {
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(25, 0, 255);
+    background-color:  #0b98de;;
     color: white;
     text-align: left;
+    list-style-type: none;
