@@ -38,11 +38,11 @@ body {
     background-color: darkgray
 }
 img {
-        width: 100px;
+        width: 200px;
         height: auto;
         float: left;
-    }
-    p {
+}
+p {
         text-align: justify;
         text-indent: 2em;
 }
@@ -60,4 +60,19 @@ article {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+}
+.warholPersonal {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.earlyCareer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fifties {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
