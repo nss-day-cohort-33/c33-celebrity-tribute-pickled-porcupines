@@ -29,6 +29,14 @@ nav a:hover {
     background-color: #0b98de;
 }
 
+li {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
 
 .header {
     text-align: center;
