@@ -25,26 +25,59 @@ nav a {
   float: right;
 }
 
-div a {
-  /* background-color: #ccc; */
-}
-
-.column1 {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-
-  margin: 5px;
-  border: 1px solid #ccc;
+h1 {
+  background-color: red;
   text-align: center;
-  /* width: 180px; */
-  padding: 22px;
+  
 }
 
-.column1 > div {
+div {
   display: flex;
-  padding-left: 40%;
+  justify-content: center;
 }
+
+.links {
+  border-style: solid; 
+  padding-left: 10px;
+  padding-right: 20px;
+  font-size: 17pt;
+  
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  line-height: 55px;
+
+}
+
+img {
+  opacity: 0.8;
+}
+
+.img {
+  opacity: 0.9;
+}
+
+/* a {
+  padding: 20;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .footer {
     height: auto;
     left: 0;
